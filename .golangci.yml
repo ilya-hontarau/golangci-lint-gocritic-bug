@@ -1,0 +1,10 @@
+linters-settings:
+  gocritic:
+    enabled-tags:
+      - diagnostic
+
+
+linters:
+  disable-all: true
+  enable:
+    - gocritic # disabled until we fix the issue with panic, see this pr for more details: https://github.com/spacelift-io/backend/pull/7766

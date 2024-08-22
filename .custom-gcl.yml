@@ -1,0 +1,5 @@
+version: v1.60.2
+name: golangci-lint
+plugins:
+  - module: 'github.com/ilya-hontarau/golangci-lint-gocritic-bug'
+    path: .
